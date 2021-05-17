@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.page1 {
+	border: 10px ridge #0066FF;
+	outline: #cccccc solid 2px;
+	margin: auto;  
+	padding: 20px;
+	text-align: center;
+	width: 70%;
+}
+.pagemenu {
+	border: 10px ridge #00CCFF;
+	outline: #cccccc solid 2px;
+	margin: auto;  
+	padding: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	width: 70%;
+}
+
+.pagetop {
+	background-color: antiquewhite;
+}
+.pagetopmenu {
+	background-color: #e6eeff;
+}
+
+.pageform {
+	
+}
+
+p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		}
+
+header {
+	left: 0;
+	top: 0;
+	height: 20px;
+	width: 1000px;
+	}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #000333;
+	}
+
+body section#content {
+	top: 100px;
+	left: 50px;
+	width: 1000px;
+	margin: 0 0 0 0;
+	padding: 0;
+	}
+
+form label {
+	display: block;
+	width: 250px;
+	float: left;
+	text-align: right;
+	padding: 4px 10px 0 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	}
+
+form input[type="text"],
+form input[type="password"] {
+	display: block;
+	width: 255px;
+	padding: 2px;
+	}
+
+form button[type="button"] {
+    width: 150px;
+	line-height: 30px;
+	margin: 0px 0px 0px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dfea #0e1f3b #0e1f3b #d9dfea;
+	background-color: #0000A0;
+	color: #FFFFFF;
+	padding: 2px 15px 3px 15px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	}
+
+	form button[type="submit"] {
+    width: 150px;
+	line-height: 30px;
+	margin: 0px 0px 0px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dfea #0e1f3b #0e1f3b #d9dfea;
+	background-color: #0000A0;
+	color: #FFFFFF;
+	padding: 2px 15px 3px 15px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	}
+	

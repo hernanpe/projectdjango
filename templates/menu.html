@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Connection{% endblock %}
+
+{% block bodyId %}LoginPage{% endblock %}
+
+{% block content %}
+<div class="pagemenu">
+<div class="pagetopmenu">
+<h1>Python Django Project</h1>
+   <h2>M2 AMDI (2020-2021) - Prof Jean-Paul LEMAIRE</h2>
+   <h3>PERUCCA, Hernan<br>
+   ROSA, Maria Daniella<br>
+   ZAIDI, Walid</h3>
+</div>
+<hr>
+<div class="pageform">
+<form action="menu" method="post">
+   {% csrf_token %}
+   {% if error %}
+   <p class="error">{{ error }}</p>
+   {% endif %}
+   <p>
+      <button type="button" class="button" onClick="location.href='option1'">Option 1</button>
+   </p>
+    <p>
+      <button type="button" class="button" onClick="location.href='option2'">Option 2</button>
+   </p>
+   <p>
+      <button type="button" class="button" onClick="window.open('admin')" title="Administrer utilisateurs / mot">Admin Django</button>
+   </p>
+   <p>
+      <button type="button" class="button" onClick="location.href='logout'">Se d&eacute;connecter</button>
+   </p>
+   </form>
+</div>
+</div>
+{% endblock %}

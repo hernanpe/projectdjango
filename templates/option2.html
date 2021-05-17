@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Option2{% endblock %}
+{% block bodyId %}Option2 Page{% endblock %}
+{% block content %}
+<div class="page2">
+<div class="pagetop">
+<h3>Page Option 2<br>
+  </h3>
+</div>
+<hr>
+<div class="pageform">
+<form action="menu" method="post">
+{% csrf_token %}
+{% if param %}
+<p >{{ param|length }}</p>
+{% endif %}
+<p>
+<button type="button" class="button" onclick="window.history.go(-1); return false;">Accueil</button>
+</p>
+</form>
+</div>
+</div>
+{% endblock %}
